@@ -3,8 +3,6 @@ package com.shopapotheke.githubpopularrepositories.service;
 import com.shopapotheke.githubpopularrepositories.model.Repository;
 import java.time.LocalDate;
 import java.util.List;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
 /**
  * This is a decorator service for {@link GitHubService} that aggregates additional
  * information for each repository returned by the underlying service. The aggregated

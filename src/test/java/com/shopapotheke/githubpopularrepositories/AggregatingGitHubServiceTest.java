@@ -3,7 +3,6 @@ package com.shopapotheke.githubpopularrepositories;
 import com.shopapotheke.githubpopularrepositories.model.Repository;
 import com.shopapotheke.githubpopularrepositories.service.AggregatingGitHubService;
 import com.shopapotheke.githubpopularrepositories.service.GitHubService;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 

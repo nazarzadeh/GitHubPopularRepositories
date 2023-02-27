@@ -1,5 +1,7 @@
 package com.shopapotheke.githubpopularrepositories.service;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.shopapotheke.githubpopularrepositories.model.Repository;
 import java.io.IOException;
 import java.net.URI;
@@ -13,8 +15,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.stream.StreamSupport;
 import org.springframework.stereotype.Service;
 

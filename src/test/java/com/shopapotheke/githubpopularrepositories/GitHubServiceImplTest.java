@@ -2,10 +2,13 @@ package com.shopapotheke.githubpopularrepositories;
 
 import com.shopapotheke.githubpopularrepositories.model.Repository;
 import com.shopapotheke.githubpopularrepositories.service.GitHubServiceImpl;
-import org.junit.jupiter.api.Test;
 import java.time.LocalDate;
 import java.util.List;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class GitHubServiceImplTest {
 
