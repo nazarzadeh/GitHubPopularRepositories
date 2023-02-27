@@ -1,0 +1,8 @@
+GET http://localhost:8080/repositories?since=2015-03-01&limit=35&language=pascal
+Content-Type: application/json
+###
+GET http://localhost:8080/repositories/with-cache?since=2015-03-01&limit=35&language=fortran
+Content-Type: application/json
+###
+GET http://localhost:8080/repositories/with-cache/aggregated?since=2015-03-01&limit=35&language=fortran
+Content-Type: application/json

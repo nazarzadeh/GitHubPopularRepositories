@@ -1,0 +1,13 @@
+package com.shopapotheke.githubpopularrepositories;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GithubpopularrepositoriesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(GithubpopularrepositoriesApplication.class, args);
+	}
+
+}
